@@ -1,6 +1,0 @@
-$ ssh-keygen -t rsa -b 4096 -C "email github yang sudah terdaftar" //buat ssh 
-$ cat ~/.ssh/id_rsa.pub //perintah cek ssh publik
-$ cat ~/.ssh/id_rsa //perintah cek ssh privat
-notepad ~/.ssh/id_rsa.pub //lihat code sssh publik di notepad 
-
-$ rm -rf ~/.ssh/id_rsa.pub  //buat reset ssh ketika ssh privat bocor
